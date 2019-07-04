@@ -29,7 +29,6 @@ namespace quakealarm
             Console.WriteLine("Playing voice");
             Process.Start(@"mplayer",@"voice.mp3");
             }
-
         }
         static void Main(string[] args)
         {
@@ -70,8 +69,6 @@ namespace quakealarm
                 Console.WriteLine("==================");
                 Thread.Sleep(10000);
             }
-
-
         }
     }
 }
